@@ -16,10 +16,10 @@ function Facial(){
        </Head>
        <Box display= "flex" flexDirection="row-reverse" style={{position:"absolute",zIndex:10}}>
        <div className="top-button">
-           <span><a href = "http://localhost:3000/login">
+           <span><a href = "https://letdis.vercel.app/login">
             <button className="facial-buttons">login</button>
             </a></span>
-            <span><a href = "http://localhost:3000/register">
+            <span><a href = "https://letdis.vercel.app/register">
             <button className="facial-buttons">Register</button>
             </a></span>
           
