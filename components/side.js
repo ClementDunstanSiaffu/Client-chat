@@ -31,7 +31,7 @@ function Side({id,name,room}){
             <Collapse  in ={navbarCollapse}>
           <div className = "add-container" id = "example-collapse-text">
             
-          <a href =  {`http://localhost:3000/restart?name=${name}&room=${room}&id=${id}`} className ="logout">
+          <a href =  {`https://letdis.vercel.app/restart?name=${name}&room=${room}&id=${id}`} className ="logout">
               <div className = "profile"> Setting</div>
           </a>
               {/*<a href =  {`http://localhost:8080/ondoa?id=${id}`} className ="logout">log out</a>*/}

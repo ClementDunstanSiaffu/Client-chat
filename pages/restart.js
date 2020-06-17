@@ -60,7 +60,7 @@ const handleRoom = (event)=>{
                   }}>
         <div className = "outer-outer-container-reg">
        <div className = "outer-container-res">
-       <form action = {`http://localhost:3000/chat?&id=${id}`} className = "inner-container-reg">
+       <form action = {`https://letdis.vercel.app/chat?&id=${id}`} className = "inner-container-reg">
                <div className = "inner-container1"> 
                 <input type = "text" name = "name" placeholder ="enter your name"
                 className = "input-border-reg" autoComplete = "off" />
