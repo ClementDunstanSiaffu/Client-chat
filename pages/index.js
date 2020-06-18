@@ -33,7 +33,7 @@ function Facial(){
           </div>
          
         <div style={{overFlow:"hidden",height:625}} className ="back-facial">
-       <video playsinline autoPlay loop muted width = "100%" height="100%" webkit-playsinline
+       <video controls="true" playsinline autoPlay loop muted width = "100%" height="100%" webkit-playsinline
        style={{paddingRight:0,objectFit: 'cover',opacity:0.8}}>
             <source src={logo} type = "video/mp4" />
           
