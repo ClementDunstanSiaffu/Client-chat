@@ -15,7 +15,7 @@ import decodeUriComponent from 'decode-uri-component';
 
 let socket; 
 
-function Chat({data1,locationbar}){
+function Chat({data,data1,locationbar}){
 
  
 
@@ -178,13 +178,15 @@ const sendMessage = (event) =>{
        isData = true;
        console.log(name)
    } */
-
-   const index = data.indexOf(id)
+useEffect(()=>{
+    const index = data.indexOf(id)
     console.log(index)
 
    if(index!==-1){
        isData = true
     }
+})
+   
 
 
   const removeUser = ()=>{
@@ -252,11 +254,11 @@ return(
 Chat.getInitialProps = async () =>{
     //const response = await fetch('https://shielded-forest-44594.herokuapp.com/pata')
     const response1 = await fetch('https://blooming-journey-09430.herokuapp.com/ujumbe')
-    //const data = await response.json();
+    const data = await response.json();
     const data1 = await response1.json();
-    //console.log(data);
+    console.log(data);
     console.log(data1)
-    return {data1}
+    return {data,data1}
     
 }
 
