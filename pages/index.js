@@ -34,7 +34,7 @@ function Facial(){
          
         <div style={{overFlow:"hidden",height:625}} className ="back-facial">
        <video preload="metadata" playsinline autoPlay loop muted  webkit-playsinline
-       style={{paddingRight:0,objectFit: 'cover',opacity:0.8,width:"100%",height:625}}>
+       style={{paddingRight:0,objectFit: 'cover',opacity:0.8,width:"100%",height:625,marginBottom:-60}}>
             <source src={logo} type = "video/mp4" />
           
        </video>
